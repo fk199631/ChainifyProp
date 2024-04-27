@@ -4,18 +4,21 @@ main:
   #   url: https://perstarke-webdev.de/oneflow-jekyll-theme
   #   blank: true
   #   description: "The documentation for this theme, on https://perstarke-webdev.de"
-  - title: "Introduction"
-    url: /#section-1
+  - title: "Overview"
+    url: /#overview
     blank: false
-  - title: "Objectives"
-    url: /#section-2
+  - title: "Use Cases"
+    url: /#use-cases
     blank: false
-  - title: "Methodology"
-    url: /#section-3
+  - title: "Blockchain"
+    url: /#Blockchain
     blank: false
   - title: "Project Schedule"
-    url: /#section-4
+    url: /#project-schedule
     blank: false
   - title: "Detailed Timeline"
     url: /#detailed-timeline
+    blank: false
+  - title: "Contact Us"
+    url: /#contact
     blank: false

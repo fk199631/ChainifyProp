@@ -9,7 +9,7 @@
     {% if itr.image-right %}
 
         <div class="itr-container">
-            <div class="itr-text">
+            <div class="itr-text" style="font-size: 16px;">
                 {% if itr.header %}
                     <h3>{{itr.header}}</h3>
                 {% endif %}
@@ -26,17 +26,23 @@
                 {% endif %}
             </div>
             <div class="itr-image-container">
+                <a href="{{ itr.url | relative_url }}"
+                        {% if itr.title %}title="{{ itr.title }}"{% endif %}>
                 <img src="{{itr.image-url}}" alt="{{itr.alt-text | default: ""}}" class="itr-image" {% if itr.image-width%}
                 style="width:{{itr.image-width}}"{% endif %}>
+                </a>
             </div>
         </div>
 
     {% else %}
 
         <div class="itr-container">
-            <div class="itr-image-container">
+            <div class="itr-text" style="font-size: 16px;">
+                <a href="{{ itr.url | relative_url }}"
+                        {% if itr.title %}title="{{ itr.title }}"{% endif %}>
                 <img src="{{itr.image-url}}" alt="{{itr.alt-text | default: ""}}" class="itr-image" {% if itr.image-width%}
                 style="width:{{itr.image-width}}"{% endif %}>
+                </a>
             </div>
             <div class="itr-text">
                 {% if itr.header %}
@@ -53,6 +59,7 @@
                         {{itr.btn-label | default: "Learn more"}}
                 </a>
                 {% endif %}
+
             </div>
         </div>
 
