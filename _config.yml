@@ -13,7 +13,7 @@ locale                   : "en-US"
 title                    : "OneFlow Jekyll Theme"
 title_separator          : "-"
 subtitle                 : " " # Displayed in the masthead below the title, use " " for no subtitle
-url                      : "https://comp7705-ChainifyProp.io" # the base hostname & protocol for your site
+url                      : "https://fk199631.github.io/ChainifyProp/" # the base hostname & protocol for your site
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "perstarke-webdev/oneflow-jekyll-theme" # GitHub username/repo-name
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -36,7 +36,7 @@ footer:
   links: # replace the URL's with your own for every link you want to have in your footer.
     - label: "Website"
       icon: "fa fa-globe"
-      url: "https://comp7705-ChainifyProp.io"
+      url: "https://fk199631.github.io/ChainifyProp/"
 #     - label: "Email"
 #       icon: "fa fa-envelope"
 #       url: "mailto: per@starke-team.de"
@@ -64,7 +64,7 @@ footer:
   copyright: "ChainifyProp" # Replace with your own
   creator: # Replace with your own creator name or remove this if you don't want any "created by" in the footer
       name: "ChainifyProp"
-      url: "https://comp7705-ChainifyProp.io"
+      url: "https://fk199631.github.io/ChainifyProp/"
 
 
 
